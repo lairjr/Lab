@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dados>
+  <dados_gerais>
+    <ID>2</ID>
+    <IDLink>Bt</IDLink>
+    <pnome>Bruna</pnome>
+    <snome>Silva Travi</snome>
+    <pais>Brasil</pais>
+    <cidade>Santa Cruz do Sul</cidade>
+    <pais_org>Brasil</pais_org>
+    <cidade_org>São Leopoldo</cidade_org>
+    <sexo>1</sexo>
+    <estado_civil>Solteiro</estado_civil>
+    <dnasc>23</dnasc>
+    <mnasc>10</mnasc>
+    <anasc>1989</anasc>
+    <interesse>Diagramação, Criação de Matérias</interesse>
+    <idiomas>
+      <idioma id="6" lingua="Espanhol" nivel="Avançado" />
+      <idioma id="7" lingua="Português" nivel="Fluente" />
+    </idiomas>
+    <emails>
+      <email id="8" mail="bruna23travi@gmail.com" principal="1" />
+      <email id="9" mail="brunatravi@hotmail.com" principal="" />
+    </emails>
+    <telefones>
+      <telefone id="1" fone="(51) 9922-3056" principal="1" />
+    </telefones>
+    <mensageiros>
+      <mensageiro id="1" tipo="MSN" valor="bruna23travi@hotmail.com" />
+    </mensageiros>
+    <redes_sociais>
+      <rede_social id="4" rede="Twitter" valor="http://twitter.com/#!/brunatravi" />
+      <rede_social id="5" rede="Blogspot" valor="http://brunatravi.blogspot.com" />
+      <rede_social id="6" rede="Facebook" valor="http://www.facebook.com/profile.php?id=1778584754" />
+    </redes_sociais>
+  </dados_gerais>
+  <config>
+    <tema id="2" />
+  </config>
+  <curriculo>
+    <academicos>
+      <academico id="1" grau="Ensino Fundamental" instituicao="Colégio Marista Champagnat" curso="Ensino Fundamental" mesini="1" anoini="1995" anofim="2000" mesfim="12" cidade="Porto Alegre" pais="Brasil" />
+      <academico id="2" grau="Ensino Médio" instituicao="Colégio Mauá" curso="Ensino Médio" mesini="1" anoini="2004" anofim="2006" mesfim="12" cidade="Santa Cruz do Sul" pais="Brasil" />
+      <academico id="3" grau="Graduação" instituicao="UNISC (Universidade de Santa Cruz do Sul)" curso="CS/Jornalismo" mesini="1" anoini="2007" anofim="999999" mesfim="999999" cidade="Santa Cruz do Sul" pais="Brasil" />
+    </academicos>
+    <exp_profs>
+      <exp_prof id="1" profissao="Secretário" empresa="UNISC" mesini="Jan" anoini="2009" anofim="2011" mesfim="Jul" atividades="Sai na rua pra experimentar roupas para o direito&#xA;É como uma modelo Plus Size." />
+      <exp_prof id="3" profissao="Auxiliar de Telemarketing" empresa="Instituto Padre Reus" mesini="1" anoini="1" anofim="0" mesfim="0" atividades="Atendimento de Alunos e resolver pepinos do lair." />
+    </exp_profs>
+    <obj_prof>Médica ou Jornalista de renome Internacional!
+Será?</obj_prof>
+    <inf_adc>Ela é linda, dedicada, amorasa, dengosa, meiga, dorminhoca.
+Bem do jeitinho que eu gosto!</inf_adc>
+    <habilidades>Sou bem comunicativa, sei mexer muito bem no Pagemaker, Photoshop, Corel Draw.
+E gosto muito de negros.
+Amo meu negão!</habilidades>
+  </curriculo>
+  <categorias>
+    <categoria id="1" nome="Revistas">
+      <projeto id="1" nome="Sala De Espera" fotofilename="" gostou="0" acesso="0" descricao="Fiz a diagramação da revista com o InDesing.">
+        <imagens>
+          <imagem id="1" filename="1.jpg" descricao="Tulips.jpg" />
+          <imagem id="2" filename="2.jpg" descricao="Lighthouse.jpg" />
+        </imagens>
+      </projeto>
+    </categoria>
+  </categorias>
+</dados>

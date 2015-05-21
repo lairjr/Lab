@@ -1,0 +1,6 @@
+F:\SkyDrive\Development\Samples\Task\Task\bin\Debug\Task.exe.config
+F:\SkyDrive\Development\Samples\Task\Task\obj\Debug\Task.csprojResolveAssemblyReference.cache
+F:\SkyDrive\Development\Samples\Task\Task\bin\Debug\Task.exe
+F:\SkyDrive\Development\Samples\Task\Task\bin\Debug\Task.pdb
+F:\SkyDrive\Development\Samples\Task\Task\obj\Debug\Task.exe
+F:\SkyDrive\Development\Samples\Task\Task\obj\Debug\Task.pdb

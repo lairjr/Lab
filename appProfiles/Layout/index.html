@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script src="Scripts/jquery-1.7.2.js"></script>
+	<script src="Scripts/ui/jquery.ui.core.js"></script>
+	<script src="Scripts/ui/jquery.ui.widget.js"></script>
+
+	<script src="Scripts/ui/jquery.ui.mouse.js"></script>
+	<script src="Scripts/ui/jquery.ui.draggable.js"></script>
+<title>Untitled Document</title>
+<style>
+	#draggable { width: 150px; height: 150px; padding: 0.5em; background-color: #666;}
+	</style>
+	<script>
+	$(function() {
+		$( "#draggable" ).draggable();
+	});
+	</script>
+</head>
+
+<body>
+
+<div class="demo">
+
+<div id="draggable" class="ui-widget-content">
+	<p>Drag me around</p>
+</div>
+
+</div><!-- End demo -->
+
+
+
+<div style="display: none;" class="demo-description">
+<p>Enable draggable functionality on any DOM element. Move the draggable object by clicking on it with the mouse and dragging it anywhere within the viewport.</p>
+</div><!-- End demo-description -->
+</body>
+</html>

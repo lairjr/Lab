@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogApi", "BlogView\BlogApi.csproj", "{F5FA428F-2BED-4B74-8055-58FC7F103394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogBLL", "BlogBLL\BlogBLL.csproj", "{6AAB48BC-6E95-46BC-993B-B7ED8BD31796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogDAL", "BlogDAL\BlogDAL.csproj", "{8F80A3EE-1880-45FD-A139-B917797D9482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEntities", "BlogEntities\BlogEntities.csproj", "{B855C439-DC04-4CDC-B5B5-3914903ADC9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Tests", "Blog.Tests\Blog.Tests.csproj", "{AA5395B3-0C51-43E1-9B21-4ED0F7033147}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BlogAngular", "http://localhost:4782", "{06E4445B-40F1-46EC-8769-172426EF62DD}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4782"
+		Debug.AspNetCompiler.PhysicalPath = "BlogAngular\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4782\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4782"
+		Release.AspNetCompiler.PhysicalPath = "BlogAngular\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4782\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "BlogAngular\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://lairjr.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BlogBLL\\BlogBLL.csproj
+		SccProjectName1 = BlogBLL
+		SccLocalPath1 = BlogBLL
+		SccProjectUniqueName2 = BlogDAL\\BlogDAL.csproj
+		SccProjectName2 = BlogDAL
+		SccLocalPath2 = BlogDAL
+		SccProjectUniqueName3 = BlogEntities\\BlogEntities.csproj
+		SccProjectName3 = BlogEntities
+		SccLocalPath3 = BlogEntities
+		SccProjectUniqueName4 = Blog.Tests\\Blog.Tests.csproj
+		SccProjectName4 = Blog.Tests
+		SccLocalPath4 = Blog.Tests
+		SccProjectUniqueName5 = BlogView\\BlogApi.csproj
+		SccProjectName5 = BlogView
+		SccLocalPath5 = BlogView
+		SccWebProject6 = true
+		SccProjectUniqueName6 = http://localhost:4782
+		SccProjectName6 = BlogAngular
+		SccLocalPath6 = BlogAngular
+		SccProjectEnlistmentChoice6 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5FA428F-2BED-4B74-8055-58FC7F103394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FA428F-2BED-4B74-8055-58FC7F103394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FA428F-2BED-4B74-8055-58FC7F103394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FA428F-2BED-4B74-8055-58FC7F103394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAB48BC-6E95-46BC-993B-B7ED8BD31796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAB48BC-6E95-46BC-993B-B7ED8BD31796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAB48BC-6E95-46BC-993B-B7ED8BD31796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAB48BC-6E95-46BC-993B-B7ED8BD31796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F80A3EE-1880-45FD-A139-B917797D9482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F80A3EE-1880-45FD-A139-B917797D9482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F80A3EE-1880-45FD-A139-B917797D9482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F80A3EE-1880-45FD-A139-B917797D9482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B855C439-DC04-4CDC-B5B5-3914903ADC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B855C439-DC04-4CDC-B5B5-3914903ADC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B855C439-DC04-4CDC-B5B5-3914903ADC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B855C439-DC04-4CDC-B5B5-3914903ADC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5395B3-0C51-43E1-9B21-4ED0F7033147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5395B3-0C51-43E1-9B21-4ED0F7033147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5395B3-0C51-43E1-9B21-4ED0F7033147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5395B3-0C51-43E1-9B21-4ED0F7033147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E4445B-40F1-46EC-8769-172426EF62DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E4445B-40F1-46EC-8769-172426EF62DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E4445B-40F1-46EC-8769-172426EF62DD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E4445B-40F1-46EC-8769-172426EF62DD}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

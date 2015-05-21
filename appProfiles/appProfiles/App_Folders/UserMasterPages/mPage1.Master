@@ -1,0 +1,181 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mPage1.master.cs" Inherits="appProfiles.App_Folders.UserMasterPages.mPage1" %>
+
+<%@ Register Src="../UserUserControl/userMenu1.ascx" TagName="userMenu1" TagPrefix="uc2" %>
+<%@ Register Src="../UserUserControl/userHeader1.ascx" TagName="userHeader1" TagPrefix="uc3" %>
+<%@ Register Src="../PortalUserControl/bar.ascx" TagName="bar" TagPrefix="uc4" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../BasicStyles/jquery.superbox.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../BasicStyles/styleButtons.css" rel="Stylesheet" type="text/css" />
+    <link href="../UserStyles/Structure/structure1.css" rel="Stylesheet" type="text/css" />
+    <link href="../UserStyles/Fonts/calibri.css" rel="Stylesheet" type="text/css" />
+    <link href="../PortalStyles/bar.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" language="javascript">
+        function entraNoCampo(campo, padrao) {
+            if (campo.value == padrao) {
+                campo.value = '';
+                campo.style.fontSize = '13px';
+                campo.style.fontStyle = 'Normal';
+                campo.style.color = '#000000';
+            }
+        }
+        function saiDoCampo(campo, padrao) {
+            if (campo.value == '') {
+                campo.value = padrao;
+                campo.style.fontSize = '12px';
+                campo.style.fontStyle = 'Italic';
+                campo.style.color = '#CCCCCC';
+            }
+        }
+        function poeDestaquePai(elemento, nodes) {
+            switch (nodes) {
+                case 1:
+                    elemento.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 2:
+                    elemento.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 3:
+                    elemento.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 4:
+                    elemento.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 5:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 6:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 7:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+            }
+        }
+        function tiraDestaquePai(elemento, nodes) {
+            switch (nodes) {
+                case 1:
+                    elemento.parentNode.style.backgroundColor = '';
+                    break;
+                case 2:
+                    elemento.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 3:
+                    elemento.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 4:
+                    elemento.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 5:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 6:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 7:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 8:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+            }
+        }
+        function setTransparence() {
+            document.getElementById('page-transparece').style.height = document.getElementById('page-container').clientHeight + 20 + 'px';
+            document.getElementById('header-transparence').style.height = document.getElementById('header-data').clientHeight + 20 + 'px';
+            document.getElementById('menu-transparece').style.height = document.getElementById('menu-container').clientHeight + 20 + 'px';
+        }
+        function resizeAsContent(textarea) {
+            textarea.style.height = (textarea.scrollHeight) + 'px';
+        }
+        function checkENTER(resize, edit, btnExecute) {
+            if (event != null) {
+                if (((event.keyCode == 13) || (event.which == 13)) && !(event.shiftKey)) {
+                    document.getElementById(btnExecute.id).click();
+                    return false;
+                }
+                else {
+                    return true
+                };
+            }
+            else {  
+                return true
+            };
+        }
+    </script>
+
+    <script type="text/javascript" src="../../App_Folders/JavaScript/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../../App_Folders/JavaScript/jquery.superbox.js"></script>
+    <link rel="stylesheet" href="../BasicStyles/jquery.superbox.css" type="text/css" media="all" />
+    <script type="text/javascript">
+            $.superbox.settings = {
+        $(function () {
+                boxId: "superbox", // Id attribute of the "superbox" element
+                boxClasses: "", // Class of the "superbox" element
+                overlayOpacity: .1, // Background opaqueness
+                //boxWidth: "600", // Default width of the box
+                //boxHeight: "400", // Default height of the box
+                loadTxt: "Carregando...", // Loading text
+                closeTxt: "Fechar", // "Close" button text
+                prevTxt: "Anterior", // "Previous" button text
+                nextTxt: "Próximo" // "Next" button text
+            };
+            $.superbox();
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="body" runat="server">
+    <form id="main" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div id="base">
+        <div id="container">
+            <div id="header-transparence">
+            </div>
+            <div id="menu-transparece">
+            </div>
+            <div id="page-transparece">
+            </div>
+            <div id="header-data">
+                <uc3:userHeader1 ID="userHeader1" runat="server" />
+                <div id="clear">
+                </div>
+            </div>
+            <div id="clear">
+            </div>
+            <div id="menu-container">
+                <uc2:userMenu1 ID="userMenu1" runat="server" />
+                <div id="clear">
+                </div>
+            </div>
+            <div id="page-container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <div id="clear">
+                </div>
+            </div>
+            <div id="clear">
+            </div>
+        </div>
+        <div id="clear">
+        </div>
+        <div id="footwear">
+            <div id="footweat-data">
+                <span class="footwear">© Copyright 2012</span>
+            </div>
+        </div>
+    </div>
+    <div id="clear">
+    </div>
+    <asp:Button ID="btnFireCloseSuperbox" runat="server" Text="" Visible="false" />
+    </div>
+    <uc4:bar ID="bar1" runat="server" />
+    </form>
+    <div id="clear">
+    </div>
+</body>
+</html>

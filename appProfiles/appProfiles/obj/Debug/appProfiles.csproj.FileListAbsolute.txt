@@ -1,0 +1,10 @@
+E:\Dropbox\Sites\appProfiles\appProfiles\bin\appProfiles.dll
+E:\Dropbox\Sites\appProfiles\appProfiles\bin\appProfiles.pdb
+E:\Dropbox\Sites\appProfiles\appProfiles\obj\Debug\ResolveAssemblyReference.cache
+E:\Dropbox\Sites\appProfiles\appProfiles\obj\Debug\appProfiles.dll
+E:\Dropbox\Sites\appProfiles\appProfiles\obj\Debug\appProfiles.pdb
+D:\Lair\Dropbox\Sites\appProfiles\appProfiles\bin\appProfiles.dll
+D:\Lair\Dropbox\Sites\appProfiles\appProfiles\bin\appProfiles.pdb
+D:\Lair\Dropbox\Sites\appProfiles\appProfiles\obj\Debug\ResolveAssemblyReference.cache
+D:\Lair\Dropbox\Sites\appProfiles\appProfiles\obj\Debug\appProfiles.dll
+D:\Lair\Dropbox\Sites\appProfiles\appProfiles\obj\Debug\appProfiles.pdb

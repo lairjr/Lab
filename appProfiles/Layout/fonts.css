@@ -1,0 +1,87 @@
+/* CSS Document */
+
+.highlight {
+	font-family: 'Calibri';
+	font-size: 28px;
+	font-weight: bold;
+	color: #282828;
+}
+.header-detail {
+	font-family: 'Calibri';
+	font-size: 14px;
+	font-style: italic;
+	color: #282828;
+}
+.header-description {
+	font-family: 'Calibri';
+	font-size: 15px;
+	color: #282828;
+}
+.footwear {
+	font-family: 'Calibri';
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.menu {
+	font-family: 'Calibri';
+	font-size: 18px;
+	color: #282828;
+	font-weight: bold;
+}
+.project-name {
+	font-family: 'Calibri';
+	font-size: 21px;
+	font-weight: bold;
+	color: #282828;
+}
+.project-description {
+	font-family: 'Calibri';
+	font-size: 13px;
+	font-style: italic;
+	color: #282828;
+}
+.project-text {
+	font-family: 'Calibri';
+	font-size: 15px;
+	color: #282828;
+}
+.project-link {
+	font-family: 'Calibri';
+	font-size: 15px;
+	color: #282828;
+	text-decoration: none;
+}
+.project-section {
+	font-family: 'Calibri';
+	font-size: 17px;
+	font-weight: bold;
+	color: #282828;
+}
+.resume-section {
+	font-family: 'Calibri';
+	font-size: 17px;
+	font-weight: bold;
+	color: #282828;
+}
+.resume-detail-title {
+	font-family: 'Calibri';
+	font-size: 15px;
+	font-weight: bold;
+	color: #282828;
+}
+.resume-datail-date {
+	font-family: 'Calibri';
+	font-size: 14px;
+	font-style: italic;
+	color: #282828;
+}
+.resume-datail-company {
+	font-family: 'Calibri';
+	font-size: 14px;
+	color: #666;
+}
+.resume-datail-description {
+	font-family: 'Calibri';
+	font-size: 14px;
+	color: #282828;
+}

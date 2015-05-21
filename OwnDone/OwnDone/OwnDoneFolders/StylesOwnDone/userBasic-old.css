@@ -1,0 +1,200 @@
+﻿* {
+	padding: 0;
+	margin: 0;
+}
+* html #principal {
+	height: 100%;
+}
+html {
+	height: 100%;
+	position:relative;
+}
+body {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	height: 100%;
+	position:relative;
+	background-color: #EAEAEA;
+}
+#principal {
+	width: 100%;
+	height: 100%;
+}
+#base {
+	width: 900px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	min-height: 100%;
+	background: #FFFFFF;
+	box-shadow: 0em 1em 1em 0.50em #666666; /* Implementação W3C */
+	-moz-box-shadow: 0em 1em 1em 0.50em #666666;  /* Implementação Mozilla */
+	-webkit-box-shadow: 0em 1em 1em 0.50em #666666; /* Implementação para browsers que renderizam via webkit */
+	behavior: url(PIE.htc);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+#clear {
+	clear: both;
+}
+#topo {
+	position:relative;
+	padding-top: 35px;
+	height: auto;
+	width: 100%;
+}
+#meio {
+	position:relative;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 30px;
+}
+#rodape {
+	width: 100%;
+	height: 15px;
+	position: absolute;
+	text-align: center;
+	font:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+	bottom: 0;
+	left: 0;
+	border-top: 1px dashed #CCCCCC;
+}
+#barra-owndone {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(ownDoneBarraTopFundo.png) repeat-x;
+	height: 35px;
+	width: 100%;
+}
+#menu-lateral {
+	float: left;
+	width: 120px;
+	position: relative;
+	margin-left: 5px;
+}
+ul#menu-botoes {
+	width:150px;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align: center;
+}
+ul#menu-botoes li {
+	border:3px solid #CCCCCC;
+	height: 30px;
+	position: relative;
+	margin-bottom: 5px;
+}
+ul#menu-botoes li a {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+ul#menu-botoes li a:link, ul#menu-botoes li a:visited {
+	display:block;
+	height:1%;
+	text-decoration:none;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	color:#CCCCCC;
+}
+ul#menu-botoes li a:hover {
+	color:#999999;
+}
+#pagina {
+	float: right;
+	width: 728px;
+	border-top: 1px solid #CCCCCC;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 15px;
+}
+.cabecalho_foto {
+	margin: 5px 20px;
+	float: left;
+	height: 140px;
+	width: 115px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+#cabecalho_dados {
+	float: right;
+	margin-top:5px;
+	height: 135px;
+	width: 728px;
+	position: relative;
+}
+.user_nome{
+	font: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+}
+.user_dados{
+	font: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+#cabecalho_manutencao {
+	float: right;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+#cabecalho_links {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.conteudo_titulo {
+	font: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.conteudo_destaque {
+	font: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #999;
+}
+.conteudo_normal {
+	font: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000;
+}
+a, a:visited, a:active 
+{
+    text-decoration: none;
+    color: Black;
+}
+input 
+{
+    border: 2px solid #CCCCCC;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 2px;
+}
+{
+    border: 2px solid #000000;
+}
+textarea
+{
+    border: 2px solid #CCCCCC;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 2px;
+}
+textarea:focus 
+{
+    border: 2px solid #000000;
+}

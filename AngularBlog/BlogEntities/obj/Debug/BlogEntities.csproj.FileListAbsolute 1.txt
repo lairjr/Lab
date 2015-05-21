@@ -1,0 +1,15 @@
+F:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\bin\Debug\BlogEntities.dll
+F:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\bin\Debug\BlogEntities.pdb
+F:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\obj\Debug\BlogEntities.dll
+F:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\obj\Debug\BlogEntities.pdb
+F:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\obj\Debug\BlogEntities.csprojResolveAssemblyReference.cache
+E:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\bin\Debug\BlogEntities.dll
+E:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\bin\Debug\BlogEntities.pdb
+E:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\obj\Debug\BlogEntities.dll
+E:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\obj\Debug\BlogEntities.pdb
+E:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\bin\Debug\BlogEntities.dll.config
+E:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\bin\Debug\EntityFramework.dll
+E:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\bin\Debug\EntityFramework.SqlServer.dll
+E:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\bin\Debug\EntityFramework.xml
+E:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\bin\Debug\EntityFramework.SqlServer.xml
+E:\SkyDrive\Development\My Projects\AngularBlog\BlogEntities\obj\Debug\BlogEntities.csprojResolveAssemblyReference.cache

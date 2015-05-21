@@ -1,0 +1,14 @@
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\bin\CookieClient.dll.config
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\bin\CookieClient.dll
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\bin\CookieClient.pdb
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\bin\Newtonsoft.Json.dll
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\bin\System.Net.Http.Formatting.dll
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\bin\System.Web.Http.dll
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\bin\System.Web.Http.WebHost.dll
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\bin\Newtonsoft.Json.xml
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\bin\System.Net.Http.Formatting.xml
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\bin\System.Web.Http.xml
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\bin\System.Web.Http.WebHost.xml
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\obj\Debug\CookieClient.csprojResolveAssemblyReference.cache
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\obj\Debug\CookieClient.dll
+E:\SkyDrive\Development\My Projects\CookieClient\CookieClient\obj\Debug\CookieClient.pdb

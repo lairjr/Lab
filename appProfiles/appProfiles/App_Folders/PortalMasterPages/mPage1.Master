@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mPage1.master.cs" Inherits="appProfiles.App_Folders.PortalMasterPages.mPage1" %>
+
+<%@ Register Src="../PortalUserControl/bar.ascx" TagName="bar" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>appProfiles</title>
+    <link href="../PortalStyles/bar.css" rel="stylesheet" type="text/css" />
+    <link href="../PortalStyles/structure.css" rel="stylesheet" type="text/css" />
+    <link href="../BasicStyles/styleButtons.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="main" runat="server">
+    <div id="base">
+        <div id="top">
+            <div id="main-menu">
+                <ul>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Usuários</a></li>
+                    <li><a href="#">Ajuda</a>
+                        <ul>
+                            <li><a href="#">Tutoriais</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="middle">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div id="clear">
+            </div>
+        </div>
+        <div id="clear">
+        </div>
+        <div id="footwear">
+            © 2012 todos os direitos reservados.
+        </div>
+    </div>
+    <div id="clear">
+    </div>
+    <uc1:bar ID="bar1" runat="server" />
+    </form>
+    </body>
+</html>

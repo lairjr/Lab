@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dados>
+  <dados_gerais>
+    <ID>1</ID>
+    <IDLink>LairJr</IDLink>
+    <pnome>Lair</pnome>
+    <snome>Ipê da Silva Júnior</snome>
+    <pais>Estados Unidos</pais>
+    <cidade>Boston</cidade>
+    <pais_org>Brasil</pais_org>
+    <cidade_org>Santa Cruz do Sul</cidade_org>
+    <sexo>2</sexo>
+    <estado_civil>Solteiro</estado_civil>
+    <dnasc>27</dnasc>
+    <mnasc>12</mnasc>
+    <anasc>1988</anasc>
+    <interesse>Desenvolver aplicações Web e Dektop</interesse>
+    <idiomas>
+      <idioma id="1" lingua="Português" nivel="Fluente" />
+      <idioma id="2" lingua="Inglês" nivel="Intermediário" />
+    </idiomas>
+    <emails>
+      <email id="5" mail="lairjr@hotmail.com" principal="1" />
+    </emails>
+    <telefones>
+      <telefone id="1" fone="(51) 99923254" principal="1" />
+      <telefone id="2" fone="(51) 37174063" principal="" />
+    </telefones>
+    <mensageiros>
+      <mensageiro id="1" tipo="MSN" valor="lairjr@hotmail.com" />
+    </mensageiros>
+    <redes_sociais>
+      <rede_social id="3" rede="Facebook" valor="http://facebook.com/LairIpe" />
+      <rede_social id="4" rede="Linkedin" valor="http://br.linkedin.com/in/lairjr" />
+    </redes_sociais>
+  </dados_gerais>
+  <config>
+    <tema id="1" />
+  </config>
+  <categorias>
+    <categoria id="2" nome="C# WPF">
+      <projeto id="1" nome="Controle de Entradas em Eventos" fotofilename="" gostou="0" acesso="0" descricao="Programa desenvolvido para o departamento de direito da UNISC, para fazer o controle de entrada dos alunos nos eventos do curso.&#xA;O controle é feito com o código de barra da carteirinha do estudante." />
+    </categoria>
+    <categoria id="3" nome="ASP.NET">
+      <projeto id="1" nome="Portal Fabiano Peçanha" fotofilename="" gostou="0" acesso="0" descricao="Portal com notícias, biografia e diverças outras informações sobre o atleta.&#xA;É possível administrar o site, trocando e adicionando fotos, notícias e vídeos.">
+        <imagens>
+          <imagem id="1" filename="1.jpg" descricao="Koala.jpg" />
+          <imagem id="2" filename="2.JPG" descricao="DSC01048.JPG" />
+          <imagem id="3" filename="3.jpg" descricao="Penguins.jpg" />
+          <imagem id="4" filename="4.jpg" descricao="Chrysanthemum.jpg" />
+        </imagens>
+        <videos>
+        </videos>
+        <links>
+          <link id="1" link="www.fabianopecanha.com.br" descricao="Site" />
+        </links>
+      </projeto>
+      <projeto id="2" nome="Fotos Gaúchas" fotofilename="" gostou="0" acesso="0" descricao="Banco de fotos do rio grande do sul." />
+    </categoria>
+    <categoria id="4" nome="Android">
+      <projeto id="1" nome="Pedidos Sisvale" fotofilename="" gostou="0" acesso="0" descricao="Aplicação para fazer pedidos com integração ao ERP da empresa." />
+    </categoria>
+    <categoria id="5" nome="Blevers" />
+  </categorias>
+  <curriculo>
+    <academicos>
+      <academico id="1" grau="Ensino Fundamental" instituicao="Colégio Marista São Luís" mesini="01" anoini="2005" mesfim="12" anofim="2006" curso="Ensino Fundamental" cidade="Santa Cruz do Sul" pais="Brasil" />
+      <academico id="3" grau="Ensino Médio" instituicao="Colégio La Salle Santo Antônio" mesini="01" anoini="2006" mesfim="12" anofim="2007" curso="Ensino Médio" cidade="Porto Alegre" pais="Brasil" />
+      <academico id="4" grau="Graduação" instituicao="Universidade de Santa Cruz do Sul" curso="Ciência da Computação" mesini="Jan" anoini="2007" anofim="2011" mesfim="Out" cidade="Santa Cruz do Sul" pais="Brasil" />
+    </academicos>
+    <exp_profs>
+      <exp_prof id="6" profissao="Desenvolvedor Web e Desktop" empresa="Sisvale Informática" mesini="10" anoini="2009" anofim="999999" mesfim="999999" atividades="Desenvolver novas funções para os sistemas da empresa.&#xA;Criação de relatórios.&#xA;E dar suporte ao cliente." />
+      <exp_prof id="7" profissao="Estágio como Secretário" empresa="UNISC" mesini="10" anoini="2007" anofim="2008" mesfim="3" atividades="Atendimento ao aluno e conferência de matrículas." />
+      <exp_prof id="8" profissao="Técnico de Informática" empresa="Gigamicro Informática" mesini="4" anoini="2009" anofim="2009" mesfim="10" atividades="Montagem e manutenção de computadores.&#xA;Configuração de redes, intalação de sistemas operacionais.&#xA;Atendimento ao cliente." />
+      <exp_prof id="9" profissao="Auxiliar de CPD" empresa="IPR (Instituto Padre Reus)" mesini="4" anoini="2008" anofim="2009" mesfim="4" atividades="Cadastramento de matrículas, atendimento aos parceiros. Conferência de faturas mensais." />
+    </exp_profs>
+    <obj_prof>Trabalhar com tecnologia moderna. Criando um habiente de trabalhao alegre, e fazendo parte de uma equipe de desenvolvimento responsável e eficiênte.</obj_prof>
+    <inf_adc>Sou uma cara legal.
+Bacana.
+Bonito e gostosão!</inf_adc>
+    <habilidades>Desenvolvimento em aplicações web em ASP.NET, JSP e desktop em C#, Delphi e JAVA.
+Conhecimentos em SQL, nos bancos de dados DataFlex, SQL Server, MySql.
+Nivél intermediário da língua inglesa.</habilidades>
+  </curriculo>
+</dados>

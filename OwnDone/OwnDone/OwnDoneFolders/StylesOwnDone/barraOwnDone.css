@@ -1,0 +1,141 @@
+﻿#barra-owndone {
+	position: absolute;
+	top: 0;
+	right: 0;
+	backgrounasdd: url(ownDoneBarraTopFundo.png) repeat-x;
+	background-color:#000000;
+	border-bottom: 2px solid #666666;
+	height: 35px;
+	width: 100%;
+	text-align: center;
+}
+#base-barra-owndone {
+	width: 900px;
+	height: 35px;
+	text-align: left;
+	position: relative;	
+	margin-left: auto;
+	margin-right: auto;	
+}
+#login-barra-owndone {
+	float: right;
+	height: 35px;
+	position: relative;	
+}
+#conteudo-barra-owndone {
+	float: left;
+	height: 35px;
+	position: relative;
+}
+.barra-owndone-destaque {
+	color:#FFFFFF;
+	font: Calibri;
+	font-size: 14px;
+	font-weight:bold;
+}
+#pesquisa-barra-owndone {
+	border-left: 1px solid #666666;
+	position: relative;
+	float: left;
+	vertical-align:middle;
+	padding-left: 5px;
+	height: 35px;
+}
+.owndone-logo {
+	position: relative;
+	float: left;
+}
+.input-pesquisar {
+	margin-top: 6px;
+	border: 1px solid #666666;
+	font: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000;
+	height: 22px;
+	width: 260px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.input-pesquisar:focus {
+	border: 1px solid #E4E4E4;
+}
+.input-login {
+	border: 1px solid #666666;
+	font: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000;
+	height: 22px;
+	width: 190px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.input-login:focus {
+	border: 1px solid #E4E4E4;
+}
+#login-campos-barra-owndone {
+	position: relative;
+	float: right;
+	height: auto;
+	width: auto;
+	z-index: 1;
+	vertical-align: middle;
+}
+#login-campos-barra-owndone ul {
+	padding:0;
+	margin:0px;
+	float: right;
+	width: 100%;
+	list-style:none;
+	fdont:80% Tahoma;
+	fodnt-weight:bold;
+	z-index: 1;		
+	vertical-align: middle;
+	text-align: center;
+}
+#login-campos-barra-owndone li {  
+	padding:0px;
+	margin:0px;
+	list-style: none;
+	float: right;
+	position: relative;
+	vertical-align: middle;
+	z-index: 1;		
+}
+#login-campos-barra-owndone ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	width: auto;
+	float:right;
+	height: 25px;
+	vertical-align: middle;
+	display: block;
+	z-index: 1;		
+}
+#login-campos-barra-owndone ul li a:hover {
+	z-index: 1;
+}
+#login-campos-barra-owndone ul ul {
+	position: absolute;
+	visibility: hidden;	
+	background: #6daee3;
+	float: left;
+	top: 25px;
+	right: 0px;
+	z-index: 1;	
+}
+#login-campos-barra-owndone ul li:hover ul {
+	visibility: visible;
+	z-index: 1;
+}
+#login-div-barra-owndone {
+	background: #000000;
+	width: 230px;
+	height: 110px;
+	border: 2px solid #666666;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	cursor: default;
+}

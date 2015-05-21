@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Profile - Lair Ipê da Silva Júnior</title>    
+<link href="style.css" rel="Stylesheet" type="text/css" />
+<link href="fonts.css" rel="Stylesheet" type="text/css" />
+<script type="text/javascript" language="javascript">
+        function entraNoCampo(campo, padrao) {
+            if (campo.value == padrao) {
+                campo.value = '';
+                campo.style.fontSize = '13px';
+                campo.style.fontStyle = 'Normal';
+                campo.style.color = '#000000';
+            }
+        }
+        function saiDoCampo(campo, padrao) {
+            if (campo.value == '') {
+                campo.value = padrao;
+                campo.style.fontSize = '12px';
+                campo.style.fontStyle = 'Italic';
+                campo.style.color = '#CCCCCC';
+            }
+        } 
+        function poeDestaquePai(elemento, nodes) {
+            switch (nodes) {
+                case 1:
+                    elemento.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 2:
+                    elemento.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 3:
+                    elemento.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 4:
+                    elemento.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 5:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 6:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 7:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+            }
+        }
+        function tiraDestaquePai(elemento, nodes) {
+            switch (nodes) {
+                case 1:
+                    elemento.parentNode.style.backgroundColor = '';
+                    break;
+                case 2:
+                    elemento.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 3:
+                    elemento.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 4:
+                    elemento.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 5:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 6:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 7:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 8:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+            }
+        }
+    </script>
+</head>
+
+<body>
+	<div id="main">
+        <div id="base">  
+			<div id="container">
+				<div id="header-transparence">                </div>	
+                <div id="menu-transparece">                </div>	
+                <div id="page-transparece">                </div>
+					<div id="header-data">
+						<div id="header-info">
+						<table width="100%" border="0" cellpadding="0" cellspacing="2">	
+							<tr> 
+								<td>
+									<span class="highlight">Lair Ipê da Silva Júnior</span>								</td>
+							</tr>
+							<tr>
+								<td>
+									<span class="header-detail">23 years</span>								</td>
+							</tr>
+							<tr>
+								<td>
+									<span class="header-description">Software and Web Devellopper</span>								</td>
+							</tr>
+						</table>
+						</div>
+						<div id="header-functions">
+							<table>
+								<tr>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Like</td>
+								</tr>
+								<tr>
+									<td>English</td>
+								</tr>
+							</table>
+						</div>
+						<div id="header-links">
+							<table border="0" cellpadding="0" cellspacing="5">
+								<tr>
+									<td>
+										<img src="Imagens/facebook.png" width="32" height="32" />									</td>
+									<td>
+										<img src="Imagens/linkedin.png" width="32" height="32" />									</td>
+									<td>
+										<img src="Imagens/blogspot.png" width="32" height="32" />									</td>
+									<td>
+										<img src="Imagens/twitter.png" width="32" height="32" />									</td>
+									<td>
+										<img src="Imagens/wordpress.png" width="32" height="32" />									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				<div id="clear"></div>
+				<div id="menu-container">
+					<ul id="menu-buttons">
+						<li class="menu-buttons-first-li"><a href="#"><span class="menu" onmouseover="poeDestaquePai(this, 2)" onmouseout="tiraDestaquePai(this, 2)">Home</span></a></li>
+						<li><a href="#" class="menu-buttons-rest-a"><span class="menu" onmouseover="poeDestaquePai(this, 2)" onmouseout="tiraDestaquePai(this, 2)">Contact</span></a></li>	
+						<li><a href="#" class="menu-buttons-rest-a"><span class="menu" onmouseover="poeDestaquePai(this, 2)" onmouseout="tiraDestaquePai(this, 2)">Resum&eacute;</span></a></li>
+						<li><a href="#" class="menu-buttons-rest-a"><span class="menu" onmouseover="poeDestaquePai(this, 2)" onmouseout="tiraDestaquePai(this, 2)">ASP.NET</span></a></li>
+						<li><a href="#" class="menu-buttons-rest-a"><span class="menu" onmouseover="poeDestaquePai(this, 2)" onmouseout="tiraDestaquePai(this, 2)">JAVA Android</span></a></li>
+					</ul>
+					<div id="clear">		</div>
+                </div>
+				<div id="page-container">
+					<table cellpadding="0" cellspacing="2" border="0" width="100%">
+						<tr>
+							<td align="left">
+							 	<span class="project-name">Portal Fabiano Peçanha</span></td>
+						</tr>
+						<tr>
+							<td align="left">
+								<span class="project-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>					</td>
+						</tr>
+						<tr>
+							<td>&nbsp;
+								
+							</td>								
+						</tr>	
+						<tr>
+							<td align="left">
+								<table width="100%" cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td align="left"><span class="project-text">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br />
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br /><br />
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+										</td>
+									</tr>
+									<tr>
+                                    	<td>
+                                         	<br />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td>
+                                        	<span class="project-section">Photos</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td align="center">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td>
+                                         	<br />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td>
+                                        	<span class="project-section">Videos</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td align="center">
+                                        	<iframe width="600" height="360" src="http://www.youtube.com/embed/EAUeFri5WbM" frameborder="0" allowfullscreen></iframe>
+                                        </td>
+                                    </tr>
+									<tr>
+                                    	<td>
+                                         	<br />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td>
+                                        	<span class="project-section">Links</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td align="left">
+											<table border="0" cellpadding="0" cellspacing="0" width="100%">
+												<tr>
+													<td>
+														 <a href="http://fabianopecanha.com.br/" class="project-link"><span class="project-link">http://fabianopecanha.com.br/</span></a>
+													</td>
+												</tr>
+											</table>
+                                        </td>
+                                    </tr>
+								</table
+							></td>								
+						</tr>	
+					</table>
+					<div id="clear">		</div>
+				</div>
+				<div id="clear">		</div>
+			</div>
+			<div id="clear">		</div>
+			<div id="footwear">
+				<div id="footweat-data">
+					<span class="footwear">© Copyright 2012</span>	
+				</div>
+			</div>
+		</div>
+    	<div id="bar">		</div>
+		<div id="clear">		</div>
+    </div>
+	<div id="clear">		</div>
+</body>
+</html>

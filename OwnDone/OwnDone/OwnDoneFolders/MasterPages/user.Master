@@ -1,0 +1,251 @@
+﻿<%@ Master Language="C#" Debug="true" AutoEventWireup="true" CodeBehind="user.master.cs"
+    Inherits="OwnDone.OwnDoneFolders.MasterPages.user" %>
+
+<%@ Register src="../UserPages/usermenu.ascx" tagname="usermenu" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../../OwnDoneFolders/StylesOwnDone/styleBotoes.css" rel="Stylesheet"
+        type="text/css" />
+    <link href="../../OwnDoneFolders/StylesOwnDone/userBasic.css" rel="Stylesheet" type="text/css" />
+    <link href="../../OwnDoneFolders/StylesOwnDone/barraOwnDone.css" rel="Stylesheet"
+        type="text/css" />
+    <script type="text/javascript" language="javascript">
+        function entraNoCampo(campo, padrao) {
+            if (campo.value == padrao) {
+                campo.value = '';
+                campo.style.fontSize = '13px';
+                campo.style.fontStyle = 'Normal';
+                campo.style.color = '#000000';
+            }
+        }
+        function saiDoCampo(campo, padrao) {
+            if (campo.value == '') {
+                campo.value = padrao;
+                campo.style.fontSize = '12px';
+                campo.style.fontStyle = 'Italic';
+                campo.style.color = '#CCCCCC';
+            }
+        } 
+        function poeDestaquePai(elemento, nodes) {
+            switch (nodes) {
+                case 1:
+                    elemento.parentNode.style.backgroundColor = '#C6E2FF';
+                    break;
+                case 2:
+                    elemento.parentNode.parentNode.style.backgroundColor = '#C6E2FF';
+                    break;
+                case 3:
+                    elemento.parentNode.parentNode.parentNode.style.backgroundColor = '#C6E2FF';
+                    break;
+                case 4:
+                    elemento.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#C6E2FF';
+                    break;
+                case 5:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#C6E2FF';
+                    break;
+                case 6:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#C6E2FF';
+                    break;
+                case 7:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#C6E2FF';
+                    break;
+            }
+        }
+        function tiraDestaquePai(elemento, nodes) {
+            switch (nodes) {
+                case 1:
+                    elemento.parentNode.style.backgroundColor = '';
+                    break;
+                case 2:
+                    elemento.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 3:
+                    elemento.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 4:
+                    elemento.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 5:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 6:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 7:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 8:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+            }
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body>
+    <form id="principal" runat="server" clientidmode="Static">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div id="principal">
+        <div id="base">
+            <div id="topo">
+                <asp:Image ID="imgFoto" runat="server" Width="100" Height="120" CssClass="cabecalho_foto" />
+                <div id="cabecalho_dados">
+                    <table align="left" cellpadding="0" cellspacing="0" width="500px">
+                        <tr>
+                            <td valign="top">
+                                <asp:Label ID="lblUserName" runat="server" CssClass="user_nome" Text="User Name"></asp:Label>
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                        <td width="70px">
+                                            <span class="user_dados"><strong>Idade:</strong></span>
+                                        </td>
+                                        <td width="">
+                                            <asp:Label ID="lblIdade" runat="server" Text="0 anos" CssClass="user_dados"></asp:Label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="70px">
+                                            <span class="user_dados"><strong>País:</strong></span>
+                                        </td>
+                                        <td>
+                                            <asp:Label ID="lblPais" runat="server" Text="Pais" CssClass="user_dados"></asp:Label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="70px">
+                                            <span class="user_dados"><strong>Cidade:</strong></span>
+                                        </td>
+                                        <td>
+                                            <asp:Label ID="lblCidade" runat="server" Text="Cidade" CssClass="user_dados"></asp:Label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="70px">
+                                            <span class="user_dados"><strong>Interesse:</strong></span>
+                                        </td>
+                                        <td>
+                                            <asp:Label ID="lblInteresse" runat="server" Text="Interesse" CssClass="user_dados"></asp:Label>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table cellpadding="0" cellspacing="0" id="cabecalho_manutencao" name="edicao">
+                        <tr>
+                            <td align="right" height="30px">
+                                <asp:Button ID="btnEditarUser" runat="server" Text="Editar" CssClass="btnNormal"
+                                    OnClick="btnEditarUser_Click" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                <asp:Button ID="btnConfiguracoes" runat="server" Text="Configurações" CssClass="btnNormal" />
+                            </td>
+                        </tr>
+                    </table>
+                    <table id="cabecalho_links" cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tr>
+                            <td align="left" width="100%" valign="bottom" colspan="0" rowspan="0">
+                                <asp:DataList ID="redes" runat="server" BorderWidth="0px" CellPadding="0" RepeatDirection="Horizontal"
+                                    BorderStyle="None" OnItemDataBound="redes_ItemDataBound" HorizontalAlign="Left"
+                                    ShowFooter="False" ShowHeader="False" CssClass="cabecalho_links">
+                                    <ItemTemplate>
+                                        <asp:HiddenField ID="tipo" runat="server" Value='<%# Eval("rede") %>' />
+                                        <a href='<%# Eval("valor") %>'>
+                                            <asp:Image ID="imgRede" runat="server" Width="32px" Height="32px" BorderWidth="0px"/> 
+                                        </a>
+                                    </ItemTemplate>
+                                    <SeparatorStyle BorderStyle="None" BorderWidth="1px" />
+                                </asp:DataList>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="clear">
+                </div>
+            </div>
+            <div id="meio">
+                <div id="menu-lateral">
+                    <uc1:usermenu ID="usermenu1" runat="server" />
+                </div>
+                <div id="pagina">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="clear">
+                </div>
+            </div>
+            <div id="clear">
+            </div>
+            <div id="rodape">
+                © 2011 OwnDone, todos os direitos reservados.
+            </div>
+        </div>
+        <div id="barra-owndone">
+            <div id="base-barra-owndone">
+                <div id="conteudo-barra-owndone">
+                    <img src="../../../../OwnDoneFolders/Logos/ownDoneLogo1.png" alt="" title="Own Done" height="35"
+                        width="141" class="owndone-logo" />
+                    <div id="pesquisa-barra-owndone">
+                        <input type="text" value="Pesquisar..." class="input-pesquisar" />
+                        <input type="submit" value="OK" class="btnPesquisa" />
+                    </div>
+                </div>
+                <div id="login-barra-owndone">
+                    <table cellpadding="0" cellspacing="2" border="0" height="35" width="">
+                        <tr>
+                            <td align="center">
+                                <span class="barra-owndone-destaque">Registre-se</span>
+                            </td>
+                            <td align="center">
+                                <div id="login-campos-barra-owndone">
+                                    <ul>
+                                        <li><a href="">
+                                            <img src="../../../OwnDoneFolders/Imagens/btnLoginOwnDone.png" alt="" title="" height="25"
+                                                width="59" /></a>
+                                            <ul>
+                                                <li><a href="#">
+                                                    <div id="login-div-barra-owndone">
+                                                        <table width="100%" cellspacing="10px">
+                                                            <tr>
+                                                                <td>
+                                                                    <input type="text" class="input-login" value="Email..." />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <input type="text" class="input-login" value="Senha" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left">
+                                                                    <input type="submit" value="Logar" class="btnDestaque" />
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

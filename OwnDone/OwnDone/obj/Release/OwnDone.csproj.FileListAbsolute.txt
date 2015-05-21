@@ -1,0 +1,5 @@
+C:\Users\Júnior\Dropbox\Sites\OwnDone\OwnDone\bin\OwnDone.dll
+C:\Users\Júnior\Dropbox\Sites\OwnDone\OwnDone\bin\OwnDone.pdb
+C:\Users\Júnior\Dropbox\Sites\OwnDone\OwnDone\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Júnior\Dropbox\Sites\OwnDone\OwnDone\obj\Release\OwnDone.dll
+C:\Users\Júnior\Dropbox\Sites\OwnDone\OwnDone\obj\Release\OwnDone.pdb

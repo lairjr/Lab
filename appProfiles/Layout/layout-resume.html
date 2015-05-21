@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Profile - Lair Ipê da Silva Júnior</title>    
+<link href="style.css" rel="Stylesheet" type="text/css" />
+<link href="fonts.css" rel="Stylesheet" type="text/css" />
+<script src="Scripts/jquery-1.7.2.js"></script>
+<script src="Scripts/ui/jquery.ui.core.js"></script>
+<script src="Scripts/ui/jquery.ui.widget.js"></script>
+<script src="Scripts/ui/jquery.ui.mouse.js"></script>
+<script src="Scripts/ui/jquery.ui.draggable.js"></script>
+<script type="text/javascript" language="javascript">
+        function entraNoCampo(campo, padrao) {
+            if (campo.value == padrao) {
+                campo.value = '';
+                campo.style.fontSize = '13px';
+                campo.style.fontStyle = 'Normal';
+                campo.style.color = '#000000';
+            }
+        }
+        function saiDoCampo(campo, padrao) {
+            if (campo.value == '') {
+                campo.value = padrao;
+                campo.style.fontSize = '12px';
+                campo.style.fontStyle = 'Italic';
+                campo.style.color = '#CCCCCC';
+            }
+        } 
+        function poeDestaquePai(elemento, nodes) {
+            switch (nodes) {
+                case 1:
+                    elemento.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 2:
+                    elemento.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 3:
+                    elemento.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 4:
+                    elemento.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 5:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 6:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+                case 7:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '#F0F0F0';
+                    break;
+            }
+        }
+        function tiraDestaquePai(elemento, nodes) {
+            switch (nodes) {
+                case 1:
+                    elemento.parentNode.style.backgroundColor = '';
+                    break;
+                case 2:
+                    elemento.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 3:
+                    elemento.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 4:
+                    elemento.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 5:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 6:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 7:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+                case 8:
+                    elemento.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = '';
+                    break;
+            }
+        }
+		$(function() {
+			$("#maintenece-menu").draggable();
+		});
+    </script>
+</head>
+
+<body>
+	<div id="main">
+        <div id="base">  
+			<div id="container">
+				<div id="header-transparence">                </div>	
+                <div id="menu-transparece">                </div>	
+                <div id="page-transparece">                </div>
+					<div id="header-data">
+						<div id="header-info">
+						<table width="100%" border="0" cellpadding="0" cellspacing="2">	
+							<tr> 
+								<td>
+									<span class="highlight">Lair Ipê da Silva Júnior</span>								</td>
+							</tr>
+							<tr>
+								<td>
+									<span class="header-detail">23 years</span>								</td>
+							</tr>
+							<tr>
+								<td>
+									<span class="header-description">Software and Web Devellopper</span>								</td>
+							</tr>
+						</table>
+						</div>
+						<div id="header-functions">
+							<table>
+								<tr>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Like</td>
+								</tr>
+								<tr>
+									<td>English</td>
+								</tr>
+							</table>
+						</div>
+						<div id="header-links">
+							<table border="0" cellpadding="0" cellspacing="5">
+								<tr>
+									<td>
+										<img src="Imagens/facebook.png" width="32" height="32" />									</td>
+									<td>
+										<img src="Imagens/linkedin.png" width="32" height="32" />									</td>
+									<td>
+										<img src="Imagens/blogspot.png" width="32" height="32" />									</td>
+									<td>
+										<img src="Imagens/twitter.png" width="32" height="32" />									</td>
+									<td>
+										<img src="Imagens/wordpress.png" width="32" height="32" />									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				<div id="clear"></div>
+				<div id="menu-container">
+					<ul id="menu-buttons">
+						<li class="menu-buttons-first-li"><a href="#"><span class="menu" onmouseover="poeDestaquePai(this, 2)" onmouseout="tiraDestaquePai(this, 2)">Home</span></a></li>
+						<li><a href="#" class="menu-buttons-rest-a"><span class="menu" onmouseover="poeDestaquePai(this, 2)" onmouseout="tiraDestaquePai(this, 2)">Contact</span></a></li>	
+						<li><a href="#" class="menu-buttons-rest-a"><span class="menu" onmouseover="poeDestaquePai(this, 2)" onmouseout="tiraDestaquePai(this, 2)">Resum&eacute;</span></a></li>
+						<li><a href="#" class="menu-buttons-rest-a"><span class="menu" onmouseover="poeDestaquePai(this, 2)" onmouseout="tiraDestaquePai(this, 2)">ASP.NET</span></a></li>
+						<li><a href="#" class="menu-buttons-rest-a"><span class="menu" onmouseover="poeDestaquePai(this, 2)" onmouseout="tiraDestaquePai(this, 2)">JAVA Android</span></a></li>
+					</ul>
+					<div id="clear">		</div>
+                </div>
+				<div id="page-container">
+					<table cellpadding="0" cellspacing="2" border="0" width="100%">
+						<tr>
+							<td align="left">
+							 	<span class="project-name">Resume</span></td>
+						</tr>
+						<tr>
+							<td>&nbsp;							</td>								
+						</tr>	
+                        <tr>
+                        	<td align="left">
+                            	<span class="project-section">Objective</span>                            </td>
+                        </tr>
+                        <tr>
+                        	<td align="left">
+                            	<span class="resume-datail-description">
+                            	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.                                </span>                            </td>
+                        </tr>
+						<tr>
+                        	<td>&nbsp;                            </td>								
+						</tr>	
+                        <tr>
+                        	<td align="left">
+                            	<span class="resume-section">Professional Experiences</span>                            </td>
+                        </tr>
+                        <tr>
+                        	<td align="left">
+                            	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                	<tr>
+                                    	<td align="left">
+                                        	<span class="resume-detail-title">Delphi Devellopper</span>
+                                            <span class="resume-datail-date"> - (10/2009 - Hoje)</span>                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td align="left">
+                                        	<span class="resume-datail-company">Sisvale Informática</span>                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td align="left">
+                                        	<div id="resume-description-div">
+                                        	<span class="resume-datail-description">
+                                            Atuando desenvolvendo novas funções para os sistemas da empresa e com suporte ao cliente.<br />
+                                            Desenvolvendo uma aplicação de pedidos utilizando JAVA para Android.                                            </span>                                            </div>                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td align="left">
+                                        	<span class="resume-detail-title">Técnico de Informática</span>
+                                            <span class="resume-datail-date"> - (04/2009 - 10/2009)</span>                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td align="left">
+                                        	<span class="resume-datail-company">Gigamicro Informática</span>                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td align="left">
+                                        	<div id="resume-description-div">
+                                        	<span class="resume-datail-description">
+                                            Atuando com manutenção e configuração de computadores                                            </span>                                            </div>                                        </td>
+                                    </tr>
+                                </table>                            </td>
+                        </tr>
+                        <tr>
+                        	<td>&nbsp;                            </td>
+                        </tr>
+                        <tr>
+                        	<td align="left">
+                            	<span class="resume-section">Education</span>                            </td>
+                        </tr>
+                        <tr>
+                        	<td>
+                            	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                	<tr>
+                                    	<td align="left">
+                                        	<span class="resume-detail-title">Computer Science</span>
+                                            <span class="resume-datail-date"> - (01/2007 - Hoje)</span>                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td align="left">
+                                        	<span class="resume-datail-company">UNISC - Universidade de Santa Cruz do Sul</span>                                        </td>
+                                    </tr>
+                                </table>                            </td>
+                        </tr>
+                        <tr>
+                        	<td>&nbsp;                            </td>
+                        </tr>
+                        <tr>
+                        	<td align="left">
+                            	<span class="resume-section">Aditional Information</span>                            </td>
+                        </tr>
+                        <tr>
+                        	<td align="left">
+                            	<span class="resume-datail-description">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.                                </span>                            </td>
+                        </tr>
+					</table>
+					<div id="clear">		</div>
+				</div>
+				<div id="clear">		</div>
+			</div>
+			<div id="clear">		</div>
+			<div id="footwear">
+				<div id="footweat-data">
+					<span class="footwear">© Copyright 2012</span>				</div>
+			</div>
+		</div>
+    	<div id="bar">		</div>
+		<div id="clear">		</div>
+    </div>
+	<div id="clear">		</div>
+</body>
+</html>

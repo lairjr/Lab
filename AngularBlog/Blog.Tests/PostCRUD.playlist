@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="Blog.Tests.BusinessRules.PostTests.BrAddPost" /><Add Test="Blog.Tests.BusinessRules.PostTests.BrDeletePost" /><Add Test="Blog.Tests.BusinessRules.PostTests.BrGetPostById" /><Add Test="Blog.Tests.BusinessRules.PostTests.BrUpdatePost" /></Playlist>

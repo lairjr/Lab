@@ -1,0 +1,45 @@
+body {
+	background-color: #EAEAEA;
+}
+#base {
+	background: #FFFFFF;
+}
+#rodape {
+	color: #CCCCCC;
+	border-color: #CCCCCC;
+}
+ul#menu-botoes li {
+	border-color:#CCCCCC;
+}
+ul#menu-botoes li a:link, ul#menu-botoes li a:visited {
+	color:#CCCCCC;
+}
+ul#menu-botoes li a:hover {
+	color:#999999;
+}
+#pagina {
+	border-color: #CCCCCC;
+	color: #000000;
+}
+.conteudo_destaque {
+	color: #999;
+}
+.conteudo_normal {
+	color: #000;
+}
+a, a:visited, a:active 
+{    
+	color: Black;
+}
+input 
+{
+    border-color: #CCCCCC;
+}
+textarea
+{
+    border-color: #CCCCCC;
+}
+textarea:focus 
+{
+    border-color: #000000;
+}

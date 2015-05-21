@@ -1,0 +1,17 @@
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\obj\Debug\CookieServer.csprojResolveAssemblyReference.cache
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\CookieServer.dll.config
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\CookieServer.dll
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\CookieServer.pdb
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\Newtonsoft.Json.dll
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\System.Net.Http.Formatting.dll
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\System.Web.Http.dll
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\System.Web.Http.WebHost.dll
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\Newtonsoft.Json.xml
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\System.Net.Http.Formatting.xml
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\System.Web.Http.xml
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\System.Web.Http.WebHost.xml
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\obj\Debug\CookieServer.dll
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\obj\Debug\CookieServer.pdb
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\System.Web.Cors.dll
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\System.Web.Http.Cors.dll
+E:\SkyDrive\Development\My Projects\CookieServer\CookieServer\bin\System.Web.Http.Cors.xml
